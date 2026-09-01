@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SPCLASSES — Education Beyond Books</title>
+
+    <meta name="description"
+          content="SPCLASSES — Education Beyond Books. Classes 10, 11, 12 and CA Foundation. Economics, BST, Accounts, Commerce and Maths.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- 3D Engine -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+
+<!-- ================= PRELOADER ================= -->
+<div id="loader">
+    <div class="loader-logo">SP<span>C</span></div>
+    <div class="loader-line">
+        <div></div>
+    </div>
+    <p>EDUCATION BEYOND BOOKS</p>
+</div>
+
+
+<!-- ================= 3D BACKGROUND ================= -->
+<canvas id="three-canvas"></canvas>
+
+<div class="noise"></div>
+
+<div class="cursor-glow"></div>
+
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span>SP</span>CLASSES
+    </a>
+
+    <nav id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-btn">
+        Join Now <span>↗</span>
+    </a>
+
+    <button class="menu-btn" id="menu-btn">
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="eyebrow reveal">
+            <span class="dot"></span>
+            PREMIUM ACADEMIC LEARNING
+        </div>
+
+        <h1 class="hero-title reveal">
+            Education
+            <span>Beyond</span>
+            Books.
+        </h1>
+
+        <p class="hero-description reveal">
+            A smarter way to learn, understand and achieve.
+            Building concepts today for a stronger tomorrow.
+        </p>
+
+        <div class="hero-buttons reveal">
+
+            <a href="#courses" class="primary-btn">
+                Explore Courses
+                <span>→</span>
+            </a>
+
+            <a href="#teachers" class="secondary-btn">
+                Meet Our Teachers
+            </a>
+
+        </div>
+
+        <div class="hero-stats reveal">
+
+            <div>
+                <strong>10–12</strong>
+                <span>Classes</span>
+            </div>
+
+            <div>
+                <strong>06+</strong>
+                <span>Subjects</span>
+            </div>
+
+            <div>
+                <strong>CA</strong>
+                <span>Foundation</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FLOATING 3D EDUCATION CARD -->
+    <div class="hero-visual">
+
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+
+        <div class="floating-card card-main tilt">
+
+            <div class="card-top">
+                <span class="mini-logo">SP</span>
+
+                <span class="card-status">
+                    ● LEARNING
+                </span>
+            </div>
+
+            <div class="card-icon">
+                ∑
+            </div>
+
+            <h3>Think.</h3>
+            <h3>Understand.</h3>
+            <h3 class="gradient-text">Achieve.</h3>
+
+            <div class="card-bottom">
+                <span>SPCLASSES</span>
+                <span>01 / 06</span>
+            </div>
+
+        </div>
+
+        <div class="floating-card card-small tilt">
+            <span>10+</span>
+            <p>Years of<br>Knowledge</p>
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+        <span>SCROLL</span>
+        <div></div>
+    </div>
+
+</section>
+
+
+<!-- ================= MARQUEE ================= -->
+<section class="marquee-section">
+
+    <div class="marquee">
+
+        <span>ECONOMICS</span>
+        <i>✦</i>
+
+        <span>BUSINESS STUDIES</span>
+        <i>✦</i>
+
+        <span>ACCOUNTS</span>
+        <i>✦</i>
+
+        <span>COMMERCE</span>
+        <i>✦</i>
+
+        <span>MATHEMATICS</span>
+        <i>✦</i>
+
+        <span>CA FOUNDATION</span>
+        <i>✦</i>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section class="about section" id="about">
+
+    <div class="section-number">01</div>
+
+    <div class="section-heading reveal">
+
+        <p class="section-label">WHO WE ARE</p>
+
+        <h2>
+            Learning should be
+            <span>an experience.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="about-grid">
+
+        <div class="about-text reveal">
+
+            <p class="large-text">
+                At <b>SPCLASSES</b>, we believe education isn't
+                about memorising pages. It's about understanding
+                the idea behind them.
+            </p>
+
+            <p>
+                We create a learning environment where concepts
+                become clear, questions are encouraged and students
+                learn to think beyond the textbook.
+            </p>
+
+            <a href="#contact" class="text-link">
+                Start your journey <span>↗</span>
+            </a>
+
+        </div>
+
+
+        <div class="about-object reveal">
+
+            <div class="cube">
+
+                <div class="cube-face front">SP</div>
+                <div class="cube-face back">10</div>
+                <div class="cube-face right">11</div>
+                <div class="cube-face left">12</div>
+                <div class="cube-face top">CA</div>
+                <div class="cube-face bottom">∞</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= COURSES ================= -->
+<section class="courses section" id="courses">
+
+    <div class="section-number">02</div>
+
+    <div class="section-heading reveal">
+
+        <p class="section-label">WHAT WE TEACH</p>
+
+        <h2>
+            Knowledge that
+            <span>moves you forward.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="course-grid">
+
+
+        <article class="course-card tilt reveal">
+
+            <div class="course-number">01</div>
+
+            <div class="course-icon">∫</div>
+
+            <h3>Economics</h3>
+
+            <p>
+                Understand markets, demand, supply and
+                the logic behind economic decisions.
+            </p>
+
+            <span class="course-arrow">↗</span>
+
+        </article>
+
+
+        <article class="course-card tilt reveal">
+
+            <div class="course-number">02</div>
+
+            <div class="course-icon">◈</div>
+
+            <h3>Business Studies</h3>
+
+            <p>
+                Learn business concepts through practical
+                thinking and real-world examples.
+            </p>
+
+            <span class="course-arrow">↗</span>
+
+        </article>
+
+
+        <article class="course-card tilt reveal">
+
+            <div class="course-number">03</div>
+
+            <div class="course-icon">₹</div>
+
+            <h3>Accounts</h3>
+
+            <p>
+                Build strong fundamentals and learn
+                accounting with clarity and confidence.
+            </p>
+
+            <span class="course-arrow">↗</span>
+
+        </article>
+
+
+        <article class="course-card tilt reveal">
+
+            <div class="course-number">04</div>
+
+            <div class="course-icon">▦</div>
+
+            <h3>Commerce</h3>
+
+            <p>
+                Explore commerce concepts with structured
+                and exam-focused learning.
+            </p>
+
+            <span class="course-arrow">↗</span>
+
+        </article>
+
+
+        <article class="course-card tilt reveal">
+
+            <div class="course-number">05</div>
+
+            <div class="course-icon">π</div>
+
+            <h3>Mathematics</h3>
+
+            <p>
+                Develop logical thinking and solve problems
+                with confidence.
+            </p>
+
+            <span class="course-arrow">↗</span>
+
+        </article>
+
+
+        <article class="course-card featured tilt reveal">
+
+            <div class="course-number">06</div>
+
+            <div class="course-icon">CA</div>
+
+            <h3>CA Foundation</h3>
+
+            <p>
+                Start your professional journey with
+                focused CA Foundation preparation.
+            </p>
+
+            <span class="course-arrow">↗</span>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CLASSES ================= -->
+<section class="classes section">
+
+    <div class="section-number">03</div>
+
+    <div class="classes-content reveal">
+
+        <p class="section-label">ACADEMIC LEVELS</p>
+
+        <h2>
+            One place.
+            <br>
+            <span>Every stage.</span>
+        </h2>
+
+        <p class="classes-description">
+            Structured learning for school students and
+            future professionals.
+        </p>
+
+    </div>
+
+
+    <div class="class-orbit">
+
+        <div class="orbit-ring ring-one"></div>
+        <div class="orbit-ring ring-two"></div>
+
+        <div class="class-item item-10">
+            <span>10</span>
+            <small>CLASS</small>
+        </div>
+
+        <div class="class-item item-11">
+            <span>11</span>
+            <small>CLASS</small>
+        </div>
+
+        <div class="class-item item-12">
+            <span>12</span>
+            <small>CLASS</small>
+        </div>
+
+        <div class="class-item item-ca">
+            <span>CA</span>
+            <small>FOUNDATION</small>
+        </div>
+
+        <div class="orbit-center">
+            <span>SP</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TEACHERS ================= -->
+<section class="teachers section" id="teachers">
+
+    <div class="section-number">04</div>
+
+    <div class="section-heading reveal">
+
+        <p class="section-label">THE MINDS BEHIND SPCLASSES</p>
+
+        <h2>
+            Learn from
+            <span>the best.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="teacher-grid">
+
+
+        <div class="teacher-card tilt reveal">
+
+            <div class="teacher-image">
+                <div class="teacher-placeholder">
+                    SM
+                </div>
+
+                <div class="teacher-glow"></div>
+            </div>
+
+            <div class="teacher-info">
+
+                <span>01 / FACULTY</span>
+
+                <h3>Suyash<br>Mundhra</h3>
+
+                <p>
+                    Concept-driven teaching with a focus
+                    on clarity, application and results.
+                </p>
+
+                <div class="teacher-subjects">
+                    Economics · CA foundation · Accounts · Commerce
+                </div>
+                <div class="teacher-contact">
+
+    <a href="tel:+918582973756">
+        📞 Call
+    </a>
+
+    <a href="https://wa.me/918582973756" target="_blank">
+        💬 WhatsApp
+    </a>
+
+    <a href="https://www.instagram.com/EXACT_ID_HERE/" target="_blank">
+        📸 Instagram
+    </a>
+
+</div>
+
+            </div>
+
+        </div>
+
+
+        <div class="teacher-card tilt reveal">
+
+            <div class="teacher-image">
+                <div class="teacher-placeholder">
+                    PM
+                </div>
+
+                <div class="teacher-glow"></div>
+            </div>
+
+            <div class="teacher-info">
+
+                <span>02 / FACULTY</span>
+
+                <h3>Preeti<br>Mundhra</h3>
+
+                <p>
+                    Focused learning with structured guidance
+                    and student-first teaching.
+                </p>
+
+                <div class="teacher-subjects">
+                    Economics · Maths · Commerce · bst
+                </div>
+<div class="teacher-contact">
+
+    <a href="tel:+919874082568">
+        📞 Call
+    </a>
+
+    <a href="https://wa.me/919874082568" target="_blank">
+        💬 WhatsApp
+    </a>
+
+    <a href="https://www.instagram.com/EXACT_ID_HERE/" target="_blank">
+        📸 Instagram
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PHILOSOPHY ================= -->
+<section class="quote-section">
+
+    <div class="quote-inner reveal">
+
+        <p class="section-label">OUR PHILOSOPHY</p>
+
+        <h2>
+            "Don't just learn
+            <span>the answer.</span>
+            Understand
+            <span>why.</span>"
+        </h2>
+
+        <div class="quote-line"></div>
+
+        <p>SPCLASSES — EDUCATION BEYOND BOOKS</p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section class="contact section" id="contact">
+
+    <div class="section-number">05</div>
+
+    <div class="contact-wrapper">
+
+        <div class="contact-content reveal">
+
+            <p class="section-label">START LEARNING</p>
+
+            <h2>
+                Your next chapter
+                <span>starts here.</span>
+            </h2>
+
+            <p>
+                Ready to learn beyond the books?
+                Get in touch with SPCLASSES.
+            </p>
+
+            <a href="tel:+910000000000" class="primary-btn">
+                Contact SPCLASSES
+                <span>→</span>
+            </a>
+
+        </div>
+
+
+        <div class="contact-card tilt reveal">
+
+            <div class="contact-card-top">
+                <span>SPCLASSES</span>
+                <span>2026</span>
+            </div>
+
+            <div class="contact-logo">
+                SP
+            </div>
+
+            <h3>
+                EDUCATION<br>
+                <span>BEYOND BOOKS</span>
+            </h3>
+
+            <div class="contact-card-bottom">
+                <span>CLASS 10 · 11 · 12</span>
+                <span>CA FOUNDATION</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+    <div class="footer-top">
+
+        <div class="footer-logo">
+            SP<span>CLASSES</span>
+        </div>
+
+        <p>EDUCATION BEYOND BOOKS</p>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <span>© 2026 SPCLASSES. All rights reserved.</span>
+
+        <span>LEARN · GROW · ACHIEVE</span>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
