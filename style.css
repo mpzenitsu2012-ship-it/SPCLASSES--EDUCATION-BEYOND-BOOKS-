@@ -1364,6 +1364,35 @@ footer {
 
 
 
+       @media (max-width: 600px) {
+
+    .hero-visual {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: visible;
+    }
+
+    .card-main {
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+        margin: 0 !important;
+    }
+
+    .card-small {
+        right: 5% !important;
+    }
+}
+
+
+
+
+
+
+
 
 
 
